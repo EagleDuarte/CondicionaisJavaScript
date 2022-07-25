@@ -4,18 +4,19 @@ temos que saber também se ele é habilitado para dirigir. Caso ele
 tenha idade maior ou igual a 18 anos e possua habilitação, imprima
 no console “Pode dirigir” caso contrário imprima “Não pode dirigir”. */
 
+const habilitacao = prompt ("Voce tem habilitação? Caso possua, digite 1. Caso não possua, digite 2: ")
+switch (habilitacao){ 
 
-switch (prompt(" Olá, você tem habilitação? Digite 1, caso possua. Digite 2, caso não possua. ")){
-    
-    case '1': 
-    alert("Você esta habilitado para dirigir! ");
-    break
-    
-    case '2': 
-    alert("Desculpe, você não está habilitado para dirigir! ");
-    break
+case '1':
+   alert("Voce pode dirigir! ")
+   break
 
-    default:
-        alert("Desculpe, número inválido! ")
-        break
+case '2':
+   alert("Desculpe, voce nao pode dirigir! ")
+   break
+
+default:
+   alert("Número inválido, tente novamente! ")
+   break
+
 }

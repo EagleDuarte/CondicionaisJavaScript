@@ -1,6 +1,7 @@
 /* 4. Reescreva o exercício 3, utilizando apenas o SWITCH. */
 
-switch (prompt(" Olá, digite um número de 1 a 7: ")){
+const dia = prompt (" Olá, digite um número de 1 a 7: ")
+switch (dia){ 
 
 case '1': 
 alert("É Domingo! ");
@@ -31,7 +32,7 @@ alert("É Sábado! ");
 break
 
 default: 
-alert("Olá, dia não encontrado! ")
+alert("Desculpe, dia não encontrado! ")
 break
 
 }
